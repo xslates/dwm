@@ -2,7 +2,7 @@
 
 # module status bar for dwm
 
-DIR=$(dirname "$(readlink -f '$0')")
+DIR="/usr/local/dwm/status"
 
 . "$DIR/src/dwm_calendar.sh"
 . "$DIR/src/dwm_weather.sh"
